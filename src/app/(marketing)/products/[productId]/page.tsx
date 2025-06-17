@@ -1,6 +1,20 @@
+import { Metadata } from "next";
+import { resolve } from "path";
+
 interface productDetails {
     params:Promise<{productId :string}>
 }
+ export const generateMetadata = async ({params}:productDetails):Promise<Metadata> =>{
+  const paramId = (await params).productId;
+  const title = await new Promise((resolve)=>{
+    setTimeout(()=>{
+        resolve(`iPhone ${paramId}`)
+    },100)
+  }); 
+  return {
+    title:`Product - ${title}`
+  }
+ };
 
  const ProductDetails = async ({params}:productDetails) => {
     const paramId = (await params).productId;

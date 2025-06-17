@@ -1,7 +1,7 @@
 // app/layout.tsx
 
 export const metadata = {
-  title: "My App",
+  title: "My App Authentication",
 };
 
 export default function RootLayout({
