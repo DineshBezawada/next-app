@@ -8,7 +8,6 @@ export default function NestedLayout({children}:ProductsNestedLayout) {
     <>
     <h2>Nested Product Layout</h2>
     {children}
-
     <h2>Featued Products</h2>
     </>
     );
