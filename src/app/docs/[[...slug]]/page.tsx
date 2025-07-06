@@ -26,6 +26,6 @@ export default async function Slug({ params }: slugProps) {
     );
   }
 
-  return <h2>Docs Page if don't have any slugs</h2>
+  return <h2>Docs Page if dont have any slugs</h2>
 
 }

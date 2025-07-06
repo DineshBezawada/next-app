@@ -5,7 +5,7 @@ import { redirect, useRouter } from "next/navigation";
 //   title :'About'
 // }
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
   const date = new Date();
    const time = date.getHours();
@@ -25,4 +25,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

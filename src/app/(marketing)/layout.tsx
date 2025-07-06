@@ -1,6 +1,7 @@
 // app/layout.tsx
 
 import Link from "next/link";
+import ErrorWrapper from "./error-wrapper";
 
 export const metadata = {
   title: "My App Home",
@@ -29,7 +30,8 @@ export default function RootLayout({
         </ul>
       </nav>
         </header>
-        {children}
+        <ErrorWrapper> {children}</ErrorWrapper>
+       
         <footer style={{ background: "#c3c3d4", padding: "1rem" }}>
           <p>Footer</p>
         </footer>
