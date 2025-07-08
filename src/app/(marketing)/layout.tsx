@@ -25,6 +25,7 @@ export default function RootLayout({
             <li style={{margin:`0 20px`}}><Link href={`/counter`} style={{textDecoration:'none'}}> Counter</Link></li>
             <li style={{margin:`0 20px`}}><Link href={`/products`} style={{textDecoration:'none'}}> Products</Link></li>
             <li style={{margin:`0 20px`}}><Link href={`/profile`} style={{textDecoration:'none'}}> Profile</Link></li>
+            <li style={{margin:`0 20px`}}><Link href={`/complex-dashboard`} style={{textDecoration:'none'}}> Complex Dashboard</Link></li>
             <li style={{margin:`0 20px`}}><Link href={`/articles/123?lang=en`} style={{textDecoration:'none'}}> English Article</Link></li>
             <li style={{margin:`0 20px`}}><Link href={`/articles/123?lang=fr`} style={{textDecoration:'none'}}> French Article</Link></li>
         </ul>
