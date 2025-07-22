@@ -3,8 +3,7 @@ import Link from "next/link";
 export default function Notifications(){
     return (
         <>
-        <h3>Notifications</h3>
-        <Link href='/complex-dashboard/archived'>Archived Notifications</Link>
+        <h3>Please Login to continue...</h3>
         </>
     )
 }
